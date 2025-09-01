@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 约等于两行 16sp 文本的可视高度，防止列表项在数量变化时抖动 -->
+    <dimen name="scanned_name_min_height">48dp</dimen>
+</resources>
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 底层纯色背景，使用与启动图主色一致的颜色，可按需调整 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#8B3A2F" />
+        </shape>
+    </item>
+    <!-- 上层启动图，保持居中显示 -->
+    <item>
+        <bitmap
+            android:src="@drawable/startup_screen"
+            android:gravity="center"/>
+    </item>
+</layer-list>
+

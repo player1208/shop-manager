@@ -1,0 +1,20 @@
+{
+  "name": "barcode-scf",
+  "version": "1.0.0",
+  "description": "Serverless Cloud Function (Node.js) for barcode lookup via TianAPI",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.local.js",
+    "test": "node index.local.js 6921168560509",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "axios": "1.7.7",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "morgan": "1.10.0",
+    "cors": "2.8.5"
+  }
+}
+

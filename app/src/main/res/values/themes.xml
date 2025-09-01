@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础应用主题，启用透明系统栏（Android 11 及以下有效；12+ 见 values-v31 覆盖） -->
+    <style name="Theme.StoreManagerAssitent" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- 兼容保留：若未来需要系统级启动图，可切换使用该主题 -->
+    <style name="Theme.StoreManagerAssitent.Splash" parent="Theme.StoreManagerAssitent">
+        <item name="android:windowBackground">@drawable/startup_screen</item>
+    </style>
+</resources>
